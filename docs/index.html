@@ -8,16 +8,17 @@
 
 		
 
-		<link rel="modulepreload" href="/_app/start-e236e82f.js">
-		<link rel="modulepreload" href="/_app/chunks/vendor-3d2a11bb.js">
-		<link rel="modulepreload" href="/_app/pages/__layout.svelte-43f97abe.js">
-		<link rel="modulepreload" href="/_app/pages/index.svelte-fc48e0d7.js">
+		<link rel="modulepreload" href="/_app/start-c7d87d9a.js">
+		<link rel="modulepreload" href="/_app/chunks/vendor-80da1d51.js">
+		<link rel="modulepreload" href="/_app/pages/__layout.svelte-b33c1197.js">
+		<link rel="modulepreload" href="/_app/chunks/timestamp-43ba9366.js">
+		<link rel="modulepreload" href="/_app/pages/index.svelte-c257e99c.js">
 		<link rel="stylesheet" href="/_app/assets/start-61d1577b.css">
 		<link rel="stylesheet" href="/_app/assets/pages/__layout.svelte-2ef6f771.css">
 		<link rel="stylesheet" href="/_app/assets/pages/index.svelte-3bfc4746.css">
 
 		<script type="module">
-			import { start } from "/_app/start-e236e82f.js";
+			import { start } from "/_app/start-c7d87d9a.js";
 			start({
 				target: document.querySelector("#svelte"),
 				paths: {"base":"","assets":""},
@@ -30,8 +31,8 @@
 					status: 200,
 					error: null,
 					nodes: [
-						import("/_app/pages/__layout.svelte-43f97abe.js"),
-						import("/_app/pages/index.svelte-fc48e0d7.js")
+						import("/_app/pages/__layout.svelte-b33c1197.js"),
+						import("/_app/pages/index.svelte-c257e99c.js")
 					],
 					page: {
 						host: location.host, // TODO this is redundant
@@ -49,9 +50,10 @@
 
 <div id="site" class="svelte-vx18qd"><div class="nav svelte-xpt94p"><a href="/" class="svelte-xpt94p">home</a>
     <a href="/page" class="svelte-xpt94p">page</a>
+    <a href="/beat" class="svelte-xpt94p">beat</a>
 </div>
     <div id="site-content" class="svelte-vx18qd"><h1 class="svelte-13hvi8p">Welcome to my website!</h1></div>
-    <div class="footer svelte-g5euym">© 1630549920 - 1630684790 Stefan
+    <div class="footer svelte-g5euym">© 1630549920 - 1630710780 Stefan
 </div>
 </div>
 
@@ -61,3 +63,14 @@
 		</div>
 	</body>
 </html>
+<style>
+	/* Hide scrollbar for Chrome, Safari and Opera */
+	html::-webkit-scrollbar {
+        display: none;
+    }
+    /* Hide scrollbar for IE, Edge and Firefox */
+    html {
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
+    }
+</style>
