@@ -1,0 +1,1 @@
+import{K as t}from"./vendor-e3c26de6.js";function e(){return Math.round(Date.now()/1e3)}const n=t(e(),(function(t){let n=setInterval((()=>{t(e())}),1e3);return function(){clearInterval(n)}}));export{n as t};
