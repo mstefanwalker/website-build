@@ -1,1 +1,0 @@
-import{r as e}from"./index-c827b1df.js";function t(){return Math.round(Date.now()/1e3)}const i=e(t(),function(n){let r=setInterval(()=>{n(t())},1e3);return function(){clearInterval(r)}});export{i as t};
